@@ -10,6 +10,6 @@ def line(deli)
       newArr[i-1] = "#{i}. #{deli[i-1]}"
     end
 
-    
+    puts newArr.join()
   end
 end
