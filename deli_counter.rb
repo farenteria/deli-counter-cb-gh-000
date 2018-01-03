@@ -8,6 +8,7 @@ def line(deli)
     newArr.push("The line is currently: ")
     deli.each do | name |
       newArr[i-1] = "#{i}. #{deli[i-1]}"
+      i += 1
     end
 
     puts newArr.join()
