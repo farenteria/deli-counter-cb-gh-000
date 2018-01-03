@@ -24,7 +24,8 @@ def now_serving(deli)
   name
   if deli.size == 0
     name = "nobody"
-
+  else
+    name = deli.unshift()
   end
 
   puts "There is #{name} waiting to be served"
