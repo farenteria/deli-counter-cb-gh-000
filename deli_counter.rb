@@ -4,8 +4,9 @@ def line(deli)
     puts "The line is currently empty."
   else
     i = 1
+    newArr = []
     deli.each do | name |
-      
+      puts ""
     end
   end
 end
