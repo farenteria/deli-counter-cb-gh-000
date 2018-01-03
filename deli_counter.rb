@@ -6,7 +6,7 @@ def line(deli)
     i = 1
     newArr = []
     deli.each do | name |
-      puts ""
+      newArr[i-1] = "#{i}. #{deli[i-1]}"
     end
   end
 end
