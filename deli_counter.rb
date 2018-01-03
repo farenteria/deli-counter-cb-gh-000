@@ -21,7 +21,7 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli)
-  name
+  name = ""
   if deli.size == 0
     name = "nobody"
   else
