@@ -28,5 +28,5 @@ def now_serving(deli)
     name = deli.unshift()
   end
 
-  puts "There is #{name} waiting to be served"
+  puts "There is #{name} waiting to be served!"
 end
