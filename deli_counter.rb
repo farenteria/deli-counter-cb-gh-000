@@ -5,7 +5,7 @@ def line(deli)
   else
     i = 1
     newArr = []
-    newArr.push("The line is currently: ")
+    newArr.push("The line is currently:")
     deli.each do | name |
       newArr[i] = " #{i}. #{deli[i-1]}"
       i += 1
